@@ -59,7 +59,7 @@ export default function Index() {
       },
       {
         text: "Sim",
-        onPress: () => linkRemove,
+        onPress: () => linkRemove(),
       },
     ]);
   }
